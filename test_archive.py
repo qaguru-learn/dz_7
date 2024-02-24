@@ -13,8 +13,8 @@ def test_csv():
             reader = list(csv.reader(TextIOWrapper(csv_f, 'utf-8-sig'), delimiter=';'))
             second_row = reader[1]
 
-    assert second_row[1] == 'Dulce'  # проверка значения элемента в первом столбце второй строки
-    assert second_row[2] == 'Abril'  # проверка значения элемента во втором столбце второй строки
+    assert second_row[1] == 'Dulce'  # проверка значения элемента во втором столбце второй строки
+    assert second_row[2] == 'Abril'  # проверка значения элемента в третьем столбце второй строки
 
 
 def test_pdf():
