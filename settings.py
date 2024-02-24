@@ -1,4 +1,5 @@
 import os
 
-archive_path = os.path.abspath('tmp/archive.zip')
-extract_path = os.path.abspath('tmp/extract')
+files_path = os.path.abspath('files')
+archive_path = os.path.abspath('source')
+extract_path = os.path.abspath('tmp')
